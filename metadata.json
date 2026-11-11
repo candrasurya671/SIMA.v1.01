@@ -1,0 +1,6 @@
+{
+  "name": "Sistem Informasi Manajemen Surat & Disposisi",
+  "description": "Sistem Informasi Manajemen Surat Masuk, Disposisi, dan Surat Keluar digital berstandar instansi dan sekolah dengan tanda tangan QR code dan export Excel ber-hyperlink.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
