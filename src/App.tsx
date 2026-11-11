@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { 
   AppSettings, 
   Bagian, 
@@ -952,6 +953,9 @@ export default function App() {
         }}
         onLogout={handleLogout}
       />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
