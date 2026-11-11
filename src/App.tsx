@@ -17,6 +17,7 @@ import {
   ValidationTokenConfig
 } from './types';
 import { StorageService } from './services/storageService';
+import { Analytics } from '@vercel/analytics/react';
 
 // Layout & Common
 import { Navbar } from './components/layout/Navbar';
@@ -952,6 +953,9 @@ export default function App() {
         }}
         onLogout={handleLogout}
       />
+      
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
